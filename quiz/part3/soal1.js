@@ -6,38 +6,16 @@
 
 
 // CODE
-// Looping Maju-Mundur
-let num = 1;
-let maju = true;
+let n = 1;
 
-while (num != 0) {
-    
-    if(maju){
-        num++;
-        maju = !maju;
-        console.log("LOOPING PERTAMA", num);
-    }
-    else{
-        num -= 2;
-        maju = !maju;
-        console.log("LOOPING KEDUA", num);
-    }
+console.log("LOOPING PERTAMA");
+while (n <= 10) {
+    console.log(n);
+    n++;
 }
 
-// Looping Maju dan Looping Mundur
-// Looping pertama (maju)
-let string = "LOOPING PERTAMA";
-let i = 0;
-let strLength = string.length;
-while(i < strLength){
-    console.log(string.substring(0, i+1));
-    i++;
-}
-
-// Looping kedua (mundur)
-let string2 = "LOOPING KEDUA";
-let strLength2 = string2.length;
-while(strLength2 > 0){
-    console.log(string2.substring(0, strLength2));
-    strLength2--;
+console.log("LOOPING KEDUA");
+while (n > 1) {
+    n--;
+    console.log(n);
 }

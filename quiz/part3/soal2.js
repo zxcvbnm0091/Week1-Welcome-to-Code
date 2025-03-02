@@ -14,5 +14,5 @@ for (let i = 1; i <= 10; i++) {
 // looping kedua (mundur)
 console.log("LOOPING KEDUA");
 for (let j = 10; j >= 1; j--) {
-  console.log(j); // Menampilkan nilai j
+  console.log(j);
 }
